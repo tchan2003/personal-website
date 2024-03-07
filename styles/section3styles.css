@@ -2,10 +2,11 @@
     border-style: solid;
     border-width: 2px;
     border-color: black;
-    width: 350px;
+    width: 500px;
     border-radius: 10px;
     border-width: 0px;
     transition: box-shadow, 0.3s;
+    margin: auto;
 }
 
 .project-container:hover{
@@ -13,8 +14,13 @@
 }
 
 .project-image{
-    width: 350px;
+    width: 500px;
     border-radius: 10px;
+    transition: opacity, 0.3s;
+}
+
+.project-image:hover{
+    opacity: 0.7;
 }
 
 .project-title{
@@ -28,4 +34,26 @@
 
 .project-description{
     text-align: center;
+    margin-bottom: 0px;
+}
+
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.language{
+    background-color: rgb(255, 208, 255);
+    border-style: solid;
+    border-width: 1px;
+    border-color: purple;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    font-size: 15px;
 }
